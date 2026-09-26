@@ -9,3 +9,11 @@ CREATE TABLE employees (
     designation VARCHAR(50),
     salary DECIMAL(10,2)
 );
+
+INSERT INTO employees
+VALUES
+(101, 'Rahul', 'IT', 'Developer', 45000),
+(102, 'Priya', 'HR', 'HR Executive', 40000),
+(103, 'Arun', 'Finance', 'Accountant', 42000);
+
+SELECT * FROM employees;
