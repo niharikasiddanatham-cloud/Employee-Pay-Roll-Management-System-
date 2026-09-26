@@ -17,3 +17,6 @@ VALUES
 (103, 'Arun', 'Finance', 'Accountant', 42000);
 
 SELECT * FROM employees;
+
+SELECT * FROM employees
+WHERE department = 'IT';
